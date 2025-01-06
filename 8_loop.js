@@ -15,7 +15,7 @@
  *  #######
  */
 
-const lev = 5;
+const lev = 4;
 for(let i =1; i<=lev; i++){
   let stars = "";
   for(let j = 1; j<=lev-i; j++){
