@@ -8,11 +8,11 @@ console.log(value);
 
 if (value >= 90) {
   console.log("A");
-} else if (89 >= 80) {
+} else if (value >= 80) {
   console.log("B");
-} else if (79 >= 70) {
+} else if (value >= 70) {
   console.log("C");
-} else if (69 >= 60) {
+} else if (value >= 60) {
   console.log("D");
 } else {
   console.log("F");

@@ -11,3 +11,58 @@ react ------------ server--------------------db
 -웹페이지를        (spring framework)
  만들어서 
  화면에 뿌림
+ 
+배열 선언
+let a = new Array(4),fill(0)
+a[0]~a[3]
+
+길이 반환 a.langth
+맨 뒤에 추가 : push
+맨뒤에 삭제 : pop
+맨 앞에 추가 : unshift
+맨 앞 삭제 : shift
+
+배열을 펼쳐서 새로운 배열에 저장
+
+arr = ['a','b','c']
+newArr = arr; //얕은복사(배열의 주소만 갖는)
+let newArr = [...arr]//깊은복사
+
+서버->json -> 배열
+
+함수
+function 함수이름(인자1,인자2){
+return 값
+}
+
+let add =(x,y)=> {
+return x+y
+}
+let minus= (x,y)=>x-y;
+
+
+filter,map
+
+a.filter((x)=>x>3);
+
+arr.map((x)=> {
+
+});
+
+
+for ~ in
+for ~ of
+//오름차순 정렬
+arr.sort((x,y){
+if(x>y)return 1;            숫자는 x-y
+if(x<y)return -1;
+return 0;
+})
+
+//내림차순
+
+arr.sort((x,y){
+if(x>y)return -1;            숫자는 y-x
+if(x<y)return +1;
+return 0;
+})
