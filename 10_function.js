@@ -29,8 +29,8 @@ function divide(x, y) {
 let result = divide(7, 3);
 console.log(result);
 
-// 5) arriw 함수 : 기존 함수의 간략 표현 람다표현식을 많이 씀
-console.log("5) arriw 함수");
+// 5) arrow 함수 : 기존 함수의 간략 표현 람다표현식을 많이 씀
+console.log("5) arrow(화살표) 함수");
 
 // 1.명시적으로 선언방법
 const firstMulti = function (x, y) {
