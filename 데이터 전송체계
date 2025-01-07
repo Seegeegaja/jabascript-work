@@ -1,0 +1,13 @@
+react ------------ server--------------------db
+데이터 요청 --> 요청받음 -------------->db검색
+ Array   <------ Resultset <-------------
+               json  (API)
+	data = {
+	"name":"kim"
+	}
+
+
+-client(크롬)        java
+-웹페이지를        (spring framework)
+ 만들어서 
+ 화면에 뿌림
